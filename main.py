@@ -36,7 +36,6 @@ class CameraWidget(QWidget):
         main_layout = QHBoxLayout()
         main_layout.addLayout(left_panel, stretch=1)
         main_layout.addWidget(self.video_label, stretch=4)
-
         self.setLayout(main_layout)
         self.cap = None
         self.timer = QTimer()
